@@ -34,6 +34,7 @@ header {
 .menu {
   text-decoration: underline;
   padding: 10px;
+  margin-right: 10px;
 }
 
 #bodycontainer {
@@ -59,16 +60,21 @@ display: flex;
 
 /* Tea of the Month Section*/
 
+#featuredtea {
+  display: flex;
+}
+
 #teacontainer {
   display: flex;
-  justify-content: space-between;
   width: 1000px;
-  margin: 0 auto;
+  margin: auto;
+  flex-wrap: wrap;
 }
 
 .tea {
 display: inline-block;
 text-align: center;
+flex-wrap: wrap;
 }
 
 .teaimage {
@@ -102,9 +108,10 @@ text-align: center;
 
 .location {
   width: 300px;
-  height: 250px;
+  height: auto;
   background-color: black;
   margin: 15px 40px;
+  padding-bottom: 20px;
 }
 
 /* Footer Section */
